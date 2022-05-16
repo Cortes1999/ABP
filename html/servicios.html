@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+    <link rel="stylesheet" href="../css/estilo.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="../js/scrollreveal.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header class="cabecera">
+        <div id="logo">
+            <img id="color" src="../IMG/3.1.png" width="120" height="120" />
+            <span class="menu">Ver menú</span>
+            <nav class="navegador">
+                <ul class="mostrar">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="registro.html">Registrate</a></li>
+                    <li class="cta">Entrar</li>
+                </ul>
+
+            </nav>
+
+        </div>
+    </header>
+    <main>
+        <div>
+            <h2>Servicios</h2>
+            <table class="table table-bordered" id="tablausuarios">
+                <thead>
+                    <tr>
+                        <th><h4>Foto</h4></th>
+                        <th><h4>Profesional</h4></th>
+                        <th><h4>Profesion</h4></th>
+                        <th><h4>Servicio</h4></th>
+                        <th><h4>Ciudad</h4></th>
+                        <th><h4>Edad</h4></th>
+                        <th><h4>Perfil LinkedIn</h4></th>
+                        <th><h4>Descripción</h4></th>
+                        <th><h4>Atención Presencial</h4></th>
+                        <th><h4>Atención Virtual</h4></th>
+                        <th><h4>¿Te interesa?</h4></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th><a href="perfilprofesional1.html"><img src="../IMG/personal/creacion1creacion8creacion.jpeg" /></a></th>
+                        <th>Camilo Suarez</th>
+                        <th>Ingeniero Fisico</th>
+                        <th>Docente Ciencias Exactas</th>
+                        <th>Medellin</th>
+                        <th>28</th>
+                        <th><a href="https://co.linkedin.com/">Mi linkedin</a></th>
+                        <th></th>
+                        <th>si</th>
+                        <th>si</th>
+                        <th><a href="#" class="servicios">Seleccionar</a></th>
+                    </tr>
+                    <tr>
+                        <th><a href="perfilprofesional2.html"><img src="../IMG/personal/creacion6creacion.jpeg" /></a></th>
+                        <th>Galeido Morales</th>
+                        <th>Ingeniero de Sistemas</th>
+                        <th>Docente Sistemas</th>
+                        <th>Pasto</th>
+                        <th>24</th>
+                        <th><a href="https://co.linkedin.com/">Mi linkedin</a></th>
+                        <th></th>
+                        <th>si</th>
+                        <th>no</th>
+                        <th><a href="#" class="servicios">Seleccionar</a></th>
+                    </tr>
+                    <tr>
+                        <th><a href="perfilprofesional3.html"><img src="../IMG/personal/profes3profes.jpg" /></a></th>
+                        <th>Camilo Suarez</th>
+                        <th>Ingeniero Fisico</th>
+                        <th>Docente Ciencias Exactas</th>
+                        <th>Medellin</th>
+                        <th>28</th>
+                        <th><a href="https://co.linkedin.com/">Mi linkedin</a></th>
+                        <th></th>
+                        <th>si</th>
+                        <th>no</th>
+                        <th><a href="#" class="servicios">Seleccionar</a></th>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+    </main>
+
+    <div class="seleccion-modal">
+        <div class="seleccion seleccion-cerrar">
+            <p class="cerrar-ses">X</p>
+            <img class="imagen-modal" src="../IMG/ingreso.svg">
+            <div class="seleccion-textos">
+                <h2>Ingresa Sesion</h2>
+                <nav class="navegadorlogin">
+                    <ul class="login">
+                        <li>
+                            <div class="formulario2" id="formulariocorreo2">
+                                <label for="correo" class="formulariolabel2">Correo Electrónico</label>
+                                <div class="formularioinput2">
+                                    <input type="email" class="formulario2input2" name="correo2" id="correo2"
+                                        placeholder="email@email.com">
+                                    <i class="formulariovalidacion2 fas fa-times-circle"></i>
+
+                                </div>
+                                <p class="formularioerror2">El correo no esta registrado.</p>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="formulario2" id="formulariopassword2">
+                                <label for="password" class="formulariolabel2">Contraseña</label>
+                                <div class="formularioinput2">
+                                    <input type="password2" class="formulario2input2" name="password2" id="password2">
+                                    <i class="formulariovalidacion2 fas fa-times-circle"></i>
+
+                                </div>
+                                <p class="formularioerror2">La contraseña o el usuario no son correctos.</p>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="formulario2" id="terminos2">
+                                <label class="formulariolabel2">
+                                    <a class="formularioterminos2" href="registro.html">Crearme una cuenta</a>
+                                    <a class="ingreso-seleccion" href="#">Entrar</a>
+                                </label>
+                            </div>
+                        </li>
+                    </ul>
+
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="contenedor-ingreso">
+        <div class="loginin loginin-cerrar">
+            <p class="cerrarlog">Atras</p>
+            <img class="imagen-login" src="../IMG/mensaje.svg">
+            <div class="selec">
+                <h2>¡Enviame una citación!</h2>
+                <form class="citacion">
+                    <input class="asunto" type="text" placeholder="Asunto">
+                    <textarea class="descripcion" placeholder="Ingrese la información"></textarea>
+                    <input type="datetime" placeholder="Ingrese la fecha Deseada">
+                    <input type="submit" name="Enviar" id="Enviar" value="Enviar">
+                </form>
+                <a class="formularioterminos2" href="#">Ingresar a mi cuenta</a>
+            </div>
+        </div>
+    </div>
+    <div class="contenedor-agradecimiento">
+        <div class="agradecimiento agradecimiento-cerrar">
+            <p class="cerraragra">Atras</p>
+            <div class="selec">
+                
+                <form class="citacion">
+                    <a id="Enviar" href="eleccion.html">
+                        ¡GRACIAS POR ELEGIRME!
+                    </a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="contenedor-modal">
+        <div class="modal modal-cerrar">
+            <p class="cerrar">X</p>
+            <img class="imagen-modal" src="../IMG/ingreso.svg">
+            <div class="modal-textos">
+                <h2>Ingresa Sesion</h2>
+                <nav class="navegadorlogin">
+                    <ul class="login">
+                        <li>
+                            <div class="formulario2" id="formulariocorreo2">
+                                <label for="correo" class="formulariolabel2">Correo Electrónico</label>
+                                <div class="formularioinput2">
+                                    <input type="email" class="formulario2input2" name="correo2" id="correo2"
+                                        placeholder="email@email.com">
+                                    <i class="formulariovalidacion2 fas fa-times-circle"></i>
+    
+                                </div>
+                                <p class="formularioerror2">El correo no esta registrado.</p>
+    
+                            </div>
+                        </li>
+                        <li>
+                            <div class="formulario2" id="formulariopassword2">
+                                <label for="password" class="formulariolabel2">Contraseña</label>
+                                <div class="formularioinput2">
+                                    <input type="password2" class="formulario2input2" name="password2" id="password2">
+                                    <i class="formulariovalidacion2 fas fa-times-circle"></i>
+    
+                                </div>
+                                <p class="formularioerror2">La contraseña o el usuario no son correctos.</p>
+    
+                            </div>
+                        </li>
+                        <li>
+                            <div class="formulario2" id="terminos2">
+                                <label class="formulariolabel2">
+                                    <a class="formularioterminos2" href="registro.html">Crearme una cuenta</a>
+                                    <a class="formularioenviar22" href="eleccion.html">Entrar</a>
+                                </label>
+                            </div>
+                        </li>
+                    </ul>
+    
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <footer class="pie">
+        <div clas="contenedor">
+
+            <p> © </p>
+            <p>Autora: Mariana Cortés García</p>
+        </div>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+
+</body>
+
+</html>

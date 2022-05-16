@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+    <link rel="stylesheet" href="../css/estilo.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="../js/scrollreveal.js"></script>
+    <link rel="stylesheet" href="../css/ingreso.css">
+</head>
+<body>
+    <header class="cabecera">
+        <div id="logo">
+            <img id="imagen"src="../IMG/3.1.png" />
+            <span class="menu">Ver menú</span>
+            <nav class="navegador">
+                <ul class="mostrar">
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="registro.html">Registrate</a></li>
+                    <li><a href="../index.html">Inicio</a></li>
+                </ul>
+
+            </nav>
+            
+        </div> 
+    </header>
+    
+        <div class="body-contenedor">
+            <div class="contenedor-sesion">
+                <div class="divisor">
+                    <div class="contenedor-icono">
+                        <i class="far fa-address-card"></i>
+                    </div>
+                </div>
+                <div class="seccion">
+                    <div class="titulo-seccion">
+                        <h5>Registrar</h5>
+                    </div>
+                    <form autocomplete="off" class="form-secion" action="#" method="post"
+                        accept-charset="utf-8">
+                        <div class="form-input">
+                            <input type="text" placeholder="Nombre" pattern="[A-Za-z0-9 ]{1,30}">
+                            <div class="icono">
+                                <i class="fas fa-user"></i>
+                            </div>
+                        </div>
+                        <div class="form-input">
+                            <input type="email" placeholder="Correo">
+                            <div class="icono">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                        </div>
+                        <div class="form-input">
+                            <input type="password" placeholder="Cotraseña" minlength="8">
+                            <div class="icono">
+                                <i class="fas fa-unlock"></i>
+                            </div>
+                        </div>
+                        <div class="form-input">
+                            <input type="password" placeholder="Repetir Cotraseña" minlength="8">
+                            <div class="icono">
+                                <i class="fas fa-unlock"></i>
+                            </div>
+                        </div>
+                        <div class="form-terminos">
+                            <input type="checkbox" id="acepto" value="">
+                            <span>
+                                Aceptar los
+                                <a href="#" title="">términos</a> y
+                                <a href="#" title="">condiciones</a>
+                            </span>
+                        </div>
+                        <div class="form-boton">
+                            <button type="submit" class="btn-form registro">
+                                Registrar
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+
+    <div class="contenedor-modal">
+        <div class="modal modal-cerrar">
+            <p class="cerrar">X</p>
+            <img class="imagen-modal" src="../IMG/ingreso.svg">
+            <div class="modal-textos">
+                <h2>Ingresa Sesion</h2>
+                <nav class="navegadorlogin">
+                    <ul class="login">
+                        <li>
+                            <div class="formulario2" id="formulariocorreo2">
+                                <label for="correo" class="formulariolabel2">Correo Electrónico</label>
+                                <div class="formularioinput2">
+                                    <input type="email" class="formulario2input2" name="correo2" id="correo2"
+                                        placeholder="email@email.com">
+                                    <i class="formulariovalidacion2 fas fa-times-circle"></i>
+    
+                                </div>
+                                <p class="formularioerror2">El correo no esta registrado.</p>
+    
+                            </div>
+                        </li>
+                        <li>
+                            <div class="formulario2" id="formulariopassword2">
+                                <label for="password" class="formulariolabel2">Contraseña</label>
+                                <div class="formularioinput2">
+                                    <input type="password2" class="formulario2input2" name="password2" id="password2">
+                                    <i class="formulariovalidacion2 fas fa-times-circle"></i>
+    
+                                </div>
+                                <p class="formularioerror2">La contraseña o el usuario no son correctos.</p>
+    
+                            </div>
+                        </li>
+                        <li>
+                            <div class="formulario2" id="terminos2">
+                                <label class="formulariolabel2">
+                                    <a class="formularioterminos2" href="registro.html">Crearme una cuenta</a>
+                                    <a class="formularioenviar22" href="eleccion.html">Entrar</a>
+                                </label>
+                            </div>
+                        </li>
+                    </ul>
+    
+                </nav>
+            </div>
+        </div>
+    </div>
+    <footer class="pie">
+        <div clas="contenedor">
+
+            <p> © </p>
+            <p>Autora: Mariana Cortés García</p>
+        </div>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>

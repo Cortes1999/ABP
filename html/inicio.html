@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+    <link rel="stylesheet" href="../css/estilo.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="../js/scrollreveal.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/ingreso.css">
+</head>
+
+<body>
+
+    <header class="cabecera">
+        <div id="logo">
+            <img id="imagen" src="../IMG/3.1.png" />
+            <span class="menu">Ver menú</span>
+            <nav class="navegador">
+                <ul class="mostrar">
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li class="registro-abrir">Registrate</li>
+                    <li class="cta">Entrar</li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <section id="sec1">
+        <div class="contenedor-texto">
+            <h2>Te damos la Bienvenida!</h2>
+            <p>Para nosotros es muy importante abarcar tus necesidades</p>
+            <a href="#sec2">¿ Sabes de que se trata ABP?</a>
+        </div>
+        <img src="../IMG/bienvenida.svg" />
+    </section>
+
+    <section id="sec2">
+        <img src="../IMG/perfil.svg" />
+        <div class="contenedor-texto">
+            <h2>Te contamos...</h2>
+            <p>ABP es una pagina web que proporciona profesionales independientes</p>
+            <a href="#sec3">¿ Quieres saber como funciona ABP?</a>
+        </div>
+
+    </section>
+
+    <section id="sec3">
+        <div class="contenedor-texto">
+            <h2>ABP es una pagina de agenda y busqueda profesional</h2>
+            <p>Puedes registrate como cliente o como profesional!
+                Hay diversas profesionales de interes en las cuales podras buscar de acuerdo a tus necesidades; y si
+                tu eres ese profesional, podras habilitar tu cuenta y brindar información acerca de tu prestación de
+                servicios.
+            </p>
+            <a href="registro.html">¿Te interesa?</a>
+            <a href="#sec4">¿Nos Conectamos?</a>
+        </div>
+        <img src="../IMG/calen.svg" />
+    </section>
+    <section id="sec4">
+        <img src="../IMG/ir.svg" />
+        <div class="contenedor-texto">
+            <h2>Contactanos!</h2>
+            <p>Puedes encontrarnos en:</p>
+            <a href="https://www.facebook.com/">Facebook</a>
+            <a href="https://www.instagram.com/">Instagram</a>
+            <a href="#sec1">¿Quieres volver al inicio?</a>
+        </div>
+    </section>
+
+
+    <div class="contenedor-modal">
+        <div class="modal modal-cerrar">
+            <p class="cerrar">X</p>
+            <div class="modal-textos">
+                <div class="body-contenedor">
+                    <div class="contenedor-sesion">
+                        <div class="divisor">
+                            <div class="contenedor-icono">
+                                <i class="far fa-address-card"></i>
+                            </div>
+                        </div>
+                        <div class="seccion">
+                            <div class="titulo-seccion">
+                                <h5>Iniciar sesión</h5>
+                            </div>
+                            <div class="inciar-con">
+                                <div class="form-boton">
+                                    <button type="submit" class="btn-form facebook">
+                                        <i class="fab fa-facebook-square"></i>
+                                        facebook
+                                    </button>
+                                </div>
+                                <div class="form-boton">
+                                    <button type="submit" class="btn-form google">
+                                        <i class="fab fa-google"></i>
+                                        Google
+                                    </button>
+                                </div>
+                            </div>
+                            <form class="form-secion" action="#" method="post" accept-charset="utf-8">
+                                <div class="form-input">
+                                    <input type="email" placeholder="Correo">
+                                    <div class="icono">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                </div>
+                                <div class="form-input">
+                                    <input type="password" placeholder="Cotraseña" minlength="8">
+                                    <div class="icono">
+                                        <i class="fas fa-unlock"></i>
+                                    </div>
+                                </div>
+                                <div class="form-boton">
+                                    <button type="submit" class="btn-form iniciar">
+                                        Iniciar
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contenedor-registro">
+        <div class="registro registro-cerrar">
+            <p class="recerrar">X</p>
+            <img class="imagen-modal" src="IMG/ingreso.svg">
+            <div class="modal-textos">
+                <div class="body-contenedor">
+                    <div class="contenedor-sesion">
+                        <div class="divisor">
+                            <div class="contenedor-icono">
+                                <i class="far fa-address-card"></i>
+                            </div>
+                        </div>
+                        <div class="seccion">
+                            <div class="titulo-seccion">
+                                <h5>Registrar</h5>
+                            </div>
+                            <form autocomplete="off" class="form-secion" action="#" method="post"
+                                accept-charset="utf-8">
+                                <div class="form-input">
+                                    <input type="text" placeholder="Nombre" pattern="[A-Za-z0-9 ]{1,30}">
+                                    <div class="icono">
+                                        <i class="fas fa-user"></i>
+                                    </div>
+                                </div>
+                                <div class="form-input">
+                                    <input type="email" placeholder="Correo">
+                                    <div class="icono">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                </div>
+                                <div class="form-input">
+                                    <input type="password" placeholder="Cotraseña" minlength="8">
+                                    <div class="icono">
+                                        <i class="fas fa-unlock"></i>
+                                    </div>
+                                </div>
+                                <div class="form-input">
+                                    <input type="password" placeholder="Repetir Cotraseña" minlength="8">
+                                    <div class="icono">
+                                        <i class="fas fa-unlock"></i>
+                                    </div>
+                                </div>
+                                <div class="form-terminos">
+                                    <input type="checkbox" id="acepto" value="">
+                                    <span>
+                                        Aceptar los
+                                        <a href="#" title="">términos</a> y
+                                        <a href="#" title="">condiciones</a>
+                                    </span>
+                                </div>
+                                <div class="form-boton">
+                                    <button type="submit" class="btn-form registro">
+                                        Registrar
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer class="pie">
+        <div clas="contenedor">
+
+            <p> © </p>
+            <p>Autora: Mariana Cortés García</p>
+        </div>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>
